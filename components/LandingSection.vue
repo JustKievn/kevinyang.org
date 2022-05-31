@@ -2,6 +2,11 @@
   <v-app id="section-landing">
     <v-row justify="center" align="center">
       <v-col class="text-center" cols="12">
+        <div>
+          <v-avatar id="avatar" class="mb-4" size="200">
+            <img src="/img/profile.jpeg" alt="Kevin" />
+          </v-avatar>
+        </div>
         <div class="display-2">Kevin Yang</div>
         <div class="title">Software Engineer @ Comcast</div>
       </v-col>
@@ -21,5 +26,8 @@ export default {
     url('/img/background.jpg');
   background-size: cover;
   background-position: center center;
+}
+#avatar {
+  border: 4px solid #45a29e;
 }
 </style>
