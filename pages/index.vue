@@ -5,7 +5,6 @@
     <SkillsSection class="_black" />
     <ExperienceSection class="_gray" />
     <ContactSection class="_black" />
-
     <NavFooter />
   </v-container>
 </template>
