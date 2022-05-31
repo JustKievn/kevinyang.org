@@ -4,7 +4,7 @@
       <div class="display-3 text-center">Skills</div>
       <v-divider class="my-8 mx-16 pb-8" />
       <v-row>
-        <v-col cols="3">
+        <v-col md="3" sm="6" xs="12">
           <v-card>
             <v-card-title class="_darkteal"> Languages </v-card-title>
             <v-card-text class="px-0 pb-0">
@@ -27,7 +27,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="3">
+        <v-col md="3" sm="6" xs="12">
           <v-card>
             <v-card-title class="_darkteal"> Databases </v-card-title>
             <v-card-text class="px-0 pb-0">
@@ -50,7 +50,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6" sm="12" xs="12">
           <v-card>
             <v-card-title class="_darkteal"> Software </v-card-title>
             <v-card-text class="px-0 pb-0">
