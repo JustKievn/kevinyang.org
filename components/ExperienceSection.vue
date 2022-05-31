@@ -1,5 +1,5 @@
 <template>
-  <v-container id="section-experience" class="text-center">
+  <v-container id="section-experience" class="text-center" fluid>
     Experience
   </v-container>
 </template>

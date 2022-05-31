@@ -1,3 +1,5 @@
 <template>
-  <v-container id="section-about" class="text-center"> About Me </v-container>
+  <v-container id="section-about" class="text-center" fluid>
+    About Me
+  </v-container>
 </template>
