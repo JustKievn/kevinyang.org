@@ -7,7 +7,7 @@
     </div>
     <v-divider class="my-1 mx-4"></v-divider>
     <v-list class="text-center" dense nav>
-      <v-list-item link @click="scrollTo('#section-landing')">
+      <v-list-item link @click="goHome()">
         <v-list-item-content>
           <v-list-item-title>
             <v-icon>mdi-home</v-icon>
@@ -67,6 +67,16 @@ export default {
     }
   },
   methods: {
+    goHome() {
+      if (window.location.pathname === '/') {
+        if (window.pageYOffset > 0) {
+          this.scrollTo('#section-landing')
+        }
+      } else {
+        window.location.href = '/'
+
+      }
+    },
     scrollTo(target) {
       this.$vuetify.goTo(target, {})
     },
