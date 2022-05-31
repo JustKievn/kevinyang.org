@@ -29,13 +29,13 @@
     <template #append>
       <v-divider class="my-1 mx-4"></v-divider>
       <div class="text-center my-6">
-        <v-btn fab small class="mx-1">
+        <v-btn fab small class="mx-1" :href='$store.state.me.linkedin_url' target='_blank'>
           <v-icon>mdi-linkedin</v-icon>
         </v-btn>
-        <v-btn fab small class="mx-1">
+        <v-btn fab small class="mx-1" :href='`mailto:`+$store.state.me.email'>
           <v-icon>mdi-email</v-icon>
         </v-btn>
-        <v-btn fab small class="mx-1">
+        <v-btn fab small class="mx-1" :href='$store.state.me.github_url' target='_blank'>
           <v-icon>mdi-github</v-icon>
         </v-btn>
       </div>
