@@ -23,7 +23,7 @@
         down into smaller, consumable pieces and I don't think any other
         industry puts those skills to the test more than Software Engineering. I
         love that software engineering is a rapidly evolving field and that I
-        will be experiencing it first-hand as I learn the nuisances of
+        will be experiencing it first-hand as I learn the nuances of
         engineering as it evolves.
       </p>
     </v-container>
