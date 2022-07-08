@@ -32,18 +32,18 @@ export default {
           position: 'Software Engineer 3',
           company: 'Comcast',
           text: 'Worked on a series of web applications to assist/automate several aspects of network engineering',
-          time: ['(SWE 3) March 2021 - Present', '(SWE 2) Jun 2019 - March 2021'],
+          time: ['(SWE 3) Mar 2021 - Present', '(SWE 2) Jun 2019 - Mar 2021'],
         },
         {
           position: 'Software Engineer Co-op',
           company: 'Comcast',
           text: "Created scripts to parse and store information on Comcast's L2 Network",
-          time: ['Sep 2016 - June 2019'],
+          time: ['Sep 2016 - Jun 2019'],
         },
         {
           position: 'Info Systems Specialist',
           company: 'LSAC',
-          time: ['Sep 2015 - March 2016'],
+          time: ['Sep 2015 - Mar 2016'],
         },
       ],
     }
