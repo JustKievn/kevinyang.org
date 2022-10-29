@@ -8,7 +8,7 @@
           </v-avatar>
         </div>
         <div class="display-2">Kevin Yang</div>
-        <div class="title">Software Engineer @ Comcast</div>
+        <div class="title">Software Engineer @ Bloomberg</div>
       </v-col>
     </v-row>
   </v-app>
